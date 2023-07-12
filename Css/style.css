@@ -1,0 +1,203 @@
+
+/* title section */
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    padding-bottom: 18%;
+}
+.title-image{
+    position: absolute;
+    width: 100%;
+    z-index: -1; 
+}
+.brand-name{
+    text-align: right;
+    padding: 2.5% 5% 0% 0%;
+}
+/* ****logo*** */
+.logo-name{
+    
+    font-family: 'Dancing Script',sans-serif;
+    color: #E7B10A;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.logo-underline1{
+
+    position: relative;
+    bottom: 30px;
+    color: #e7a10a;
+}
+.logo-underline2{
+    
+    position: relative;
+    bottom: 65px;
+    color: #e7a10a;
+
+}
+/* ****tagline**** */
+.tag-line{
+    padding: 0% 33.5%;
+    color: #D6E8DB;
+    font-family: 'Raleway',cursive;
+
+}
+
+.tag-line ul{
+    list-style: none;
+}
+.tag-line1{
+    font-size: 44px;
+}
+.tag-line2{
+    font-family: 'Dancing Script',cursive;
+    font-size: 1.5rem;
+    color: #E7B10A;
+}
+.tag-line3{
+    font-size: 1.3rem;
+}
+
+/* ***** Register **** */
+.register{
+    padding: 2% 25%;
+}
+/* **** Food items **** */
+.main-dishes{
+    padding:13% 7% 13%;
+    text-align: center;
+    background-color: #EEEEEE;
+    color: #434a45;
+}
+.main-dishes img{
+    border-radius: 50%;
+}
+.main-dishes h3{
+    font-family: 'Raleway',sans-serif;
+}
+.main-dishes h1{
+    text-align: left;
+    font-family: 'Dancing Script',cursive;
+    margin: -3% 0% 4% -4%;
+    font-size: 3.5rem;
+    color: #000;
+}
+.main-dishes p{
+    padding:0% 10%;   
+}
+/* ******* MENU **** */
+.menu{
+    background-color: #000;
+    padding:  7% 5%;
+    color: #D6E8DB;
+}
+.menu-heading{
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-family: 'Dancing Script',cursive;
+    color: #E7B10A;
+}
+.menu-item ul{
+    list-style: none;
+
+}
+.menu-item ul li::before{
+
+    content: "\2022";
+    color: #d7a309a6;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+/* **** FOoter *** */
+
+.footer{
+    
+
+}
+.footer h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Dancing Script',cursive;
+    color: #2c302d;
+    padding: 7%;
+    
+}
+.footerdetail p{
+    text-align: left;
+    padding: 0% 9%;
+    margin: 0%;
+}
+.footerdetail h2{
+    font-size: 1.2rem;
+}
+
+.footerdetail .copyright{
+    text-align: center;
+}
+.footerdetail{
+    background-color:#434a45;
+    padding :3% 10% 2%;
+    background-color: #eeeeee;
+    color: #787d7a;
+}
+@media (max-width: 1278px) and (min-width:950px) {
+    .register{
+        padding:1% 22%;
+    }
+    .tag-line{
+        padding: 0% 25%;
+    }
+    .tag-line1{ 
+        font-size: 3rem;
+    }
+    .tag-line2{
+        font-size: 1.5rem;
+    }
+    .tag-line3{
+
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 950px) and (min-width:650px) {
+    .tag-reg{
+        position: relative;
+        top: -40px;
+    }
+    .tag-line{
+        padding: 0% 20%;
+    }
+    .tag-line1{ 
+        font-size: 2.5rem;
+    }
+    .tag-line2{
+        font-size: 1.3rem;
+    }
+    .tag-line3{
+
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 650px){
+
+.tag-reg{
+    position: relative;
+    top: -70px;
+}
+    .tag-line{
+        padding: 0% 15%;
+    }
+    .tag-line1{ 
+        font-size: 2rem;
+    }
+    .tag-line2{
+        font-size: 1rem;
+    }
+    .tag-line3{
+
+        font-size: .9rem;
+    }
+}
